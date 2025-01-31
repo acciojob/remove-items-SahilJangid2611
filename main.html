@@ -1,27 +1,9 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<style type="text/css"> 
-			body {margin: 30px;} 
-		</style>  
-		<meta charset=utf-8 /> 
-		<title>Remove items from a dropdown list</title>
-	</head>
-
-	<body>
-		<form> 
+<form> 
 			<select id="colorSelect"> 
-				<option>Red</option> 
-				<option>Green</option> 
-				<option>White</option> 
-				<option>Black</option> 
+				<option value="Red">Red</option> 
+				<option value="Green">Green</option> 
+				<option value="White">White</option> 
+				<option value="Black">Black</option> 
 			</select> 
-			<input type="button" value="Select and Remove"> 
+			<input type="button" value="Select and Remove" onclick="removeColor()">
 		</form>
-
-		<script type="text/javascript" src="./script.js">
-		</script>
-
-	</body>
-
-</html>
